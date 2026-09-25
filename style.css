@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image: url("assets/bg.jpg");
+    background-position: center top;
+    height:80vh;
+    position:relative;
+    background-repeat: no-repeat;
+    background-size:max(100vw,1200px);
+    
+
+}
+.main .box{
+    height:80vh;
+    width:100%;
+    opacity: 0.44;;
+    background-color: black;
+    position:absolute;
+    top:0;
+    
+
+}
+.hero{
+    height:100%;
+    color:white;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: larger;
+    gap: 20px;
+
+}
+.hero .title{
+    font-weight: 1000;
+    font-size: 46px;
+}
+.hero :nth-child(2){
+        font-size:24px;
+}
+
+nav{
+    height:62px;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+}
+nav img{
+    color:red;
+    width:114px;
+    position:relative;
+    z-index: 10;
+}
+nav button{
+    position:relative;
+    z-index: 10;;
+    
+}
